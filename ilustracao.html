@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt"></html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DGM - Desenho II</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+</html>
+<body>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="inicio.html">Home</a></li>
+        <li><a href="sobre_curso.html">Sobre o curso</a></li>
+        <li><a href="sobre_esad.html">Sobre Esad.cr</a></li>
+        <li><a href="contacto.html">Contactos</a></li>
+        <li><a href="trabalhos.html">Trabalhos</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- logo -->
+    <div class="logo2">
+        <div class="logo">
+            <img class="logo3" src="imagens/logo.png"/>
+        </div>
+    </div>
+    <!-- imagens -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="imagens/joao_carlos_alexandre.jpg" width="100%">
+                </div>
+                <div class="details">
+                    <h3>João Carlos Alexandre<br><span></span></h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="imgBx">
+                  <img src="imagens/luis_silva.jpg" width="100%">
+              </div>
+              <div class="details">
+                  <h3>Luís Silva<br><span></span></h3>
+              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+                <img src="imagens/luis_silva2.jpg" width="100%">
+            </div>
+            <div class="details">
+                <h3>Luís Silva<br><span></span></h3>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+              <img src="imagens/luis_silva3.jpg" width="100%">
+          </div>
+          <div class="details">
+              <h3>Luís Silva<br><span></span></h3>
+          </div>
+      </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+<script type="text/javascript" src="swiper.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows : true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+</script>
+</body>
+
+
+
